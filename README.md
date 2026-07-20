@@ -17,8 +17,6 @@ That distinction is a professional feature, not a limitation: reviewers can insp
 
 ## Demos
 
-**Use the demos in your browser:** [Open the live interactive demo hub](https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site/demos)
-
 | Demo | What it demonstrates |
 | --- | --- |
 | [Hoop Nest](./hoop-nest-demo) | Role-aware sports-program dashboard, events, and attendance interaction. |
@@ -29,7 +27,7 @@ That distinction is a professional feature, not a limitation: reviewers can insp
 
 ## Run locally
 
-Open any `index.html` in a browser. Each demo is dependency-free and runs entirely in the browser. Or use the hosted [interactive demo hub](https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site/demos) without downloading code.
+Open any `index.html` in a browser. Each demo is dependency-free and runs entirely in the browser.
 
 For the full-stack Program Command Center reference, run:
 
