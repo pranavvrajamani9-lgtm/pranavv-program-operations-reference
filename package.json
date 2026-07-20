@@ -1,0 +1,7 @@
+{
+  "name": "pranavv-product-demos",
+  "private": true,
+  "type": "module",
+  "scripts": { "demo:command-center": "node program-command-center-demo/server.js", "test": "node --test tests/*.test.js program-command-center-demo/server.test.js", "verify": "npm run test" },
+  "engines": { "node": ">=20" }
+}
