@@ -46,6 +46,18 @@ In-memory repository + audit ledger + idempotency store
 
 The in-memory adapters are intentional for a public reference project. A production deployment would replace them with authenticated, tenant-isolated durable storage, observability, rate limiting, and provider adapters.
 
+## Verification
+
+`npm test` runs seven focused checks across the domain, application service, and real HTTP boundary:
+
+- valid and invalid lifecycle transitions;
+- tenant-scoped reads;
+- operator authorization;
+- idempotent replay behavior;
+- HTTP success and conflict responses.
+
+Read the [API contract](./docs/API.md) for endpoint requirements and expected error behavior.
+
 ## Repository layout
 
 | Path | Responsibility |
