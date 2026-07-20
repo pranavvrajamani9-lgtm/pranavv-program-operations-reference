@@ -1,4 +1,4 @@
-name: Verify public demos
+name: Verify reference application
 on:
   pull_request:
   push:
